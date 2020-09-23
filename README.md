@@ -6,9 +6,11 @@ GitHub's OAuth implementation supports
 
 ### Configuration
 #### Environmental Variables Setting
-| CLIENT_ID  | The client ID you received from GitHub  |
+| Params  | Description | 
 |---|---|
+| CLIENT_ID  | The client ID you received from GitHub  |
 | CLIENT_SECRET  |  The client secret you received from GitHub | 
+
 Please fill out your own `CLIENT_ID` and `CLIENT_SECRET`
 
 ### Run Application locally
