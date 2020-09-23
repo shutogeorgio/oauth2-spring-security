@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    image: login-sample:0.0.1-SNAPSHOT
+    container_name: login-sample
+    environment:
+      - CLIENT_ID=<GITHUB CLIENT ID>
+      - CLIENT_SECRET=<GITHUB CLIENT SECRET>
+    ports:
+    - 8080:8080
